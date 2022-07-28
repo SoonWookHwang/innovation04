@@ -1,16 +1,16 @@
  innovation03
- **수정,삭제 API의 request를 어떤 방식으로 사용하셨나요?**
+###**수정,삭제 API의 request를 어떤 방식으로 사용하셨나요?**
 
 - 수정API : @PathVariable로 id를 uri값으로 받고, @RequestBody로 데이터를 받아 수정한다.
 - 삭제API : @PathVariable로 id를 받아, 해당 id값을 가진 데이터를 db에서 찾아 삭제한다.
 
-**어떤 상황에 어떤 방식의 request를 써야하나요?**
+###**어떤 상황에 어떤 방식의 request를 써야하나요?**
 
 request의 유형은 4가지로
 
 Create, Read, Update, Delete 즉 CRUD가 있다. 데이터를 생성하고 싶을 때는 Create request를 사용하고 저장돼있는 데이터를 읽거나 검색하는 때에는 Read, 기존 데이터를 수정할 때는 Update, 삭제를 할때는 Delete로 request를 사용한다. 
 
-**RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?**
+###**RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?**
 
 REST API 설계 원칙
 
