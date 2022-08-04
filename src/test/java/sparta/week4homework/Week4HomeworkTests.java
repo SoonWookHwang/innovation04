@@ -1,4 +1,4 @@
-package sparta.myblogbackend;
+package sparta.week4homework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 
-public class MyblogbackendApplicationTests {
+public class Week4HomeworkTests {
 	@Autowired
 	private ApplicationContext applicationContext;
 

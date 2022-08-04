@@ -1,4 +1,4 @@
-package sparta.myblogbackend.domain;
+package sparta.week4homework.entitiy;
 
 
 import org.springframework.data.annotation.CreatedDate;
